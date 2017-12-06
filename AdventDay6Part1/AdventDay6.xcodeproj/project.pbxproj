@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD62C731FD7B09C0087F9B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD62C721FD7B09C0087F9B7 /* AppDelegate.swift */; };
+		CAD62C771FD7B09C0087F9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD62C761FD7B09C0087F9B7 /* Assets.xcassets */; };
+		CAD62C7A1FD7B09C0087F9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD62C781FD7B09C0087F9B7 /* Main.storyboard */; };
+		CAD62C861FD7B09C0087F9B7 /* AdventDay6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD62C851FD7B09C0087F9B7 /* AdventDay6Tests.swift */; };
+		CAD62C911FD7B09C0087F9B7 /* AdventDay6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD62C901FD7B09C0087F9B7 /* AdventDay6UITests.swift */; };
+		CAD62C9F1FD7BFE70087F9B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD62C9E1FD7BFE60087F9B7 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD62C821FD7B09C0087F9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD62C671FD7B09B0087F9B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD62C6E1FD7B09B0087F9B7;
+			remoteInfo = AdventDay6;
+		};
+		CAD62C8D1FD7B09C0087F9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD62C671FD7B09B0087F9B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD62C6E1FD7B09B0087F9B7;
+			remoteInfo = AdventDay6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD62C6F1FD7B09C0087F9B7 /* AdventDay6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventDay6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD62C721FD7B09C0087F9B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD62C761FD7B09C0087F9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD62C791FD7B09C0087F9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD62C7B1FD7B09C0087F9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD62C7C1FD7B09C0087F9B7 /* AdventDay6.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdventDay6.entitlements; sourceTree = "<group>"; };
+		CAD62C811FD7B09C0087F9B7 /* AdventDay6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventDay6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD62C851FD7B09C0087F9B7 /* AdventDay6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventDay6Tests.swift; sourceTree = "<group>"; };
+		CAD62C871FD7B09C0087F9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD62C8C1FD7B09C0087F9B7 /* AdventDay6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventDay6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD62C901FD7B09C0087F9B7 /* AdventDay6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventDay6UITests.swift; sourceTree = "<group>"; };
+		CAD62C921FD7B09C0087F9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD62C9E1FD7BFE60087F9B7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD62C6C1FD7B09B0087F9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD62C7E1FD7B09C0087F9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD62C891FD7B09C0087F9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD62C661FD7B09B0087F9B7 = {
+			isa = PBXGroup;
+			children = (
+				CAD62C711FD7B09C0087F9B7 /* AdventDay6 */,
+				CAD62C841FD7B09C0087F9B7 /* AdventDay6Tests */,
+				CAD62C8F1FD7B09C0087F9B7 /* AdventDay6UITests */,
+				CAD62C701FD7B09C0087F9B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD62C701FD7B09C0087F9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD62C6F1FD7B09C0087F9B7 /* AdventDay6.app */,
+				CAD62C811FD7B09C0087F9B7 /* AdventDay6Tests.xctest */,
+				CAD62C8C1FD7B09C0087F9B7 /* AdventDay6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD62C711FD7B09C0087F9B7 /* AdventDay6 */ = {
+			isa = PBXGroup;
+			children = (
+				CAD62C721FD7B09C0087F9B7 /* AppDelegate.swift */,
+				CAD62C9E1FD7BFE60087F9B7 /* ViewController.swift */,
+				CAD62C761FD7B09C0087F9B7 /* Assets.xcassets */,
+				CAD62C781FD7B09C0087F9B7 /* Main.storyboard */,
+				CAD62C7B1FD7B09C0087F9B7 /* Info.plist */,
+				CAD62C7C1FD7B09C0087F9B7 /* AdventDay6.entitlements */,
+			);
+			path = AdventDay6;
+			sourceTree = "<group>";
+		};
+		CAD62C841FD7B09C0087F9B7 /* AdventDay6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD62C851FD7B09C0087F9B7 /* AdventDay6Tests.swift */,
+				CAD62C871FD7B09C0087F9B7 /* Info.plist */,
+			);
+			path = AdventDay6Tests;
+			sourceTree = "<group>";
+		};
+		CAD62C8F1FD7B09C0087F9B7 /* AdventDay6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD62C901FD7B09C0087F9B7 /* AdventDay6UITests.swift */,
+				CAD62C921FD7B09C0087F9B7 /* Info.plist */,
+			);
+			path = AdventDay6UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD62C6E1FD7B09B0087F9B7 /* AdventDay6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD62C951FD7B09C0087F9B7 /* Build configuration list for PBXNativeTarget "AdventDay6" */;
+			buildPhases = (
+				CAD62C6B1FD7B09B0087F9B7 /* Sources */,
+				CAD62C6C1FD7B09B0087F9B7 /* Frameworks */,
+				CAD62C6D1FD7B09B0087F9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventDay6;
+			productName = AdventDay6;
+			productReference = CAD62C6F1FD7B09C0087F9B7 /* AdventDay6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD62C801FD7B09C0087F9B7 /* AdventDay6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD62C981FD7B09C0087F9B7 /* Build configuration list for PBXNativeTarget "AdventDay6Tests" */;
+			buildPhases = (
+				CAD62C7D1FD7B09C0087F9B7 /* Sources */,
+				CAD62C7E1FD7B09C0087F9B7 /* Frameworks */,
+				CAD62C7F1FD7B09C0087F9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD62C831FD7B09C0087F9B7 /* PBXTargetDependency */,
+			);
+			name = AdventDay6Tests;
+			productName = AdventDay6Tests;
+			productReference = CAD62C811FD7B09C0087F9B7 /* AdventDay6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD62C8B1FD7B09C0087F9B7 /* AdventDay6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD62C9B1FD7B09C0087F9B7 /* Build configuration list for PBXNativeTarget "AdventDay6UITests" */;
+			buildPhases = (
+				CAD62C881FD7B09C0087F9B7 /* Sources */,
+				CAD62C891FD7B09C0087F9B7 /* Frameworks */,
+				CAD62C8A1FD7B09C0087F9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD62C8E1FD7B09C0087F9B7 /* PBXTargetDependency */,
+			);
+			name = AdventDay6UITests;
+			productName = AdventDay6UITests;
+			productReference = CAD62C8C1FD7B09C0087F9B7 /* AdventDay6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD62C671FD7B09B0087F9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Arthur De Araujo";
+				TargetAttributes = {
+					CAD62C6E1FD7B09B0087F9B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CAD62C801FD7B09C0087F9B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD62C6E1FD7B09B0087F9B7;
+					};
+					CAD62C8B1FD7B09C0087F9B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD62C6E1FD7B09B0087F9B7;
+					};
+				};
+			};
+			buildConfigurationList = CAD62C6A1FD7B09B0087F9B7 /* Build configuration list for PBXProject "AdventDay6" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD62C661FD7B09B0087F9B7;
+			productRefGroup = CAD62C701FD7B09C0087F9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD62C6E1FD7B09B0087F9B7 /* AdventDay6 */,
+				CAD62C801FD7B09C0087F9B7 /* AdventDay6Tests */,
+				CAD62C8B1FD7B09C0087F9B7 /* AdventDay6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD62C6D1FD7B09B0087F9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD62C771FD7B09C0087F9B7 /* Assets.xcassets in Resources */,
+				CAD62C7A1FD7B09C0087F9B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD62C7F1FD7B09C0087F9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD62C8A1FD7B09C0087F9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD62C6B1FD7B09B0087F9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD62C9F1FD7BFE70087F9B7 /* ViewController.swift in Sources */,
+				CAD62C731FD7B09C0087F9B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD62C7D1FD7B09C0087F9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD62C861FD7B09C0087F9B7 /* AdventDay6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD62C881FD7B09C0087F9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD62C911FD7B09C0087F9B7 /* AdventDay6UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD62C831FD7B09C0087F9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD62C6E1FD7B09B0087F9B7 /* AdventDay6 */;
+			targetProxy = CAD62C821FD7B09C0087F9B7 /* PBXContainerItemProxy */;
+		};
+		CAD62C8E1FD7B09C0087F9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD62C6E1FD7B09B0087F9B7 /* AdventDay6 */;
+			targetProxy = CAD62C8D1FD7B09C0087F9B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD62C781FD7B09C0087F9B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD62C791FD7B09C0087F9B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD62C931FD7B09C0087F9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD62C941FD7B09C0087F9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CAD62C961FD7B09C0087F9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdventDay6/AdventDay6.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				INFOPLIST_FILE = AdventDay6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.AdventDay6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CAD62C971FD7B09C0087F9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdventDay6/AdventDay6.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				INFOPLIST_FILE = AdventDay6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.AdventDay6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		CAD62C991FD7B09C0087F9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				INFOPLIST_FILE = AdventDay6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.AdventDay6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventDay6.app/Contents/MacOS/AdventDay6";
+			};
+			name = Debug;
+		};
+		CAD62C9A1FD7B09C0087F9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				INFOPLIST_FILE = AdventDay6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.AdventDay6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventDay6.app/Contents/MacOS/AdventDay6";
+			};
+			name = Release;
+		};
+		CAD62C9C1FD7B09C0087F9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				INFOPLIST_FILE = AdventDay6UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.AdventDay6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = AdventDay6;
+			};
+			name = Debug;
+		};
+		CAD62C9D1FD7B09C0087F9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				INFOPLIST_FILE = AdventDay6UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.AdventDay6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = AdventDay6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD62C6A1FD7B09B0087F9B7 /* Build configuration list for PBXProject "AdventDay6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD62C931FD7B09C0087F9B7 /* Debug */,
+				CAD62C941FD7B09C0087F9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD62C951FD7B09C0087F9B7 /* Build configuration list for PBXNativeTarget "AdventDay6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD62C961FD7B09C0087F9B7 /* Debug */,
+				CAD62C971FD7B09C0087F9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD62C981FD7B09C0087F9B7 /* Build configuration list for PBXNativeTarget "AdventDay6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD62C991FD7B09C0087F9B7 /* Debug */,
+				CAD62C9A1FD7B09C0087F9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD62C9B1FD7B09C0087F9B7 /* Build configuration list for PBXNativeTarget "AdventDay6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD62C9C1FD7B09C0087F9B7 /* Debug */,
+				CAD62C9D1FD7B09C0087F9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD62C671FD7B09B0087F9B7 /* Project object */;
+}
