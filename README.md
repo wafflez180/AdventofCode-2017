@@ -1,5 +1,9 @@
 # AdventofCode-2017
 
+## Day 8
+
+I've decided to take this opportunity to learn Python to solve these types of problems faster and also to learn a rapid dev language popular in startups which I can also use for backend development.
+
 ## Day 7
 
 For part 1 I used the browser's find and replace to find the root node. For part 2 I made all the lines into an array traversed through it starting from the root's children and computing the sum as I traverse downwards. Once the traversing is finished I can see the sums of the root's children printed out and I can see which node is unbalanced. So I made another method which which detects if the node is unbalanced when traversing and prints out the node's name. Once I find out which one is unbalanced and I have the name, I make that node the start of the traversal, I run the method and it prints out it's childrens sum and weight, then with those children's weights and sums I can conclude the answer (I can see the how much the weight needs to be to match the other children's sums).
