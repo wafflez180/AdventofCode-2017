@@ -2,7 +2,7 @@
 
 ## Day 8
 
-I've decided to take this opportunity to learn Python to solve these types of problems faster and also to learn a rapid dev language popular in startups which I can also use for backend development.
+I've decided to take this opportunity to learn Python to solve these types of problems faster and to learn this rapid dev language popular in startups which I can also use for backend development.
 
 ## Day 7
 
